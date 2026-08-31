@@ -14,6 +14,8 @@ I worked briefly as a professional developer but always considered myself more o
 
 Together with a co-founder, I founded Bottomless, a company that makes automatic re-ordering systems for e-commerce that use weight sensors.
 
+I used to be active on Twitter at the formerly psuedonomous @mmay3r. (Views expressed there are often experimental, devil's advocating, not to be taken literally or seriously.)
+
 Currently, I'm exploring new products, learning how LLMs work by building.
 
 ## About the blog
