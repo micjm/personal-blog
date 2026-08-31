@@ -20,4 +20,4 @@ Currently, I'm exploring new products, learning how LLMs work by building.
 
 ## About the blog
 
-This site was forked from the [Hugo Bear Blog template](https://github.com/janraasch/hugo-bearblog). It turns plain Markdown into tiny static HTML pages.
+This site was forked from the [Hugo Bear Blog template](https://github.com/janraasch/hugo-bearblog). It's cool because I can upload markdown files and have them turned into simple HTML files, and I like the simple design.
