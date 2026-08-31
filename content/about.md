@@ -2,15 +2,13 @@
 title = "About"
 +++
 
-# About
-
-## About me
+# About me
 
 I'm Michael Mayer.
 
 I taught myself to code at night while working as a dishwasher during the day.
 
-I hold an Economics degree from a middling university and like to read history, memoir, narrative nonfiction and occasionally literature and philosophy.
+I hold an Economics degree and like to read history, memoir, narrative nonfiction and occasionally literature and philosophy.
 
 I worked briefly as a professional developer but was always better as a rapid prototype hacker.
 
