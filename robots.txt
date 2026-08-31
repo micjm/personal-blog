@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://micjm.github.io/personal-blog/sitemap.xml
+Sitemap: https://micjm.com/sitemap.xml
