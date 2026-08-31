@@ -1,0 +1,38 @@
+baseURL = "https://example.com/"
+locale = "en-US"
+title = "micjm"
+theme = "hugo-bearblog"
+enableRobotsTXT = true
+
+# Keep the public site deliberately small: no category or tag index pages.
+disableKinds = ["taxonomy", "term", "section"]
+
+[permalinks]
+  blog = "/blog/:slug/"
+
+[params]
+  title = "micjm"
+  description = "Writing by micjm."
+  hideMadeWithLine = true
+  dateFormat = "2006-01-02"
+
+[[menus.main]]
+  name = "blog"
+  url = "/"
+  weight = 10
+
+[[menus.main]]
+  name = "about"
+  url = "/about/"
+  weight = 20
+
+[markup]
+  [markup.highlight]
+    style = "friendly"
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
