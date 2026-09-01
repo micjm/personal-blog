@@ -28,7 +28,7 @@ disableKinds = ["taxonomy", "term", "section"]
 
 [[menus.main]]
   name = "subscribe"
-  url = "/#subscribe"
+  url = "/subscribe/"
   weight = 30
 
 [markup]
