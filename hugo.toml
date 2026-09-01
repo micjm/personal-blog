@@ -28,7 +28,7 @@ disableKinds = ["taxonomy", "term", "section"]
 
 [[menus.main]]
   name = "subscribe"
-  url = "https://tally.so/r/WO7K1k"
+  url = "/#subscribe"
   weight = 30
 
 [markup]
