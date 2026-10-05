@@ -21,3 +21,5 @@ Currently, I'm exploring new products, learning how LLMs work by building.
 ## About the blog
 
 This site was forked from the [Hugo Bear Blog template](https://github.com/janraasch/hugo-bearblog). It's cool because I can upload markdown files and have them turned into simple HTML files, and I like the simple design.
+
+The theme is by Jan Raasch and is used under the [MIT license](/licenses/hugo-bearblog.txt).
