@@ -2,6 +2,12 @@
 
 A minimal Hugo blog using the [Hugo Bear Blog](https://github.com/janraasch/hugo-bearblog) theme.
 
+## Theme license
+
+Hugo Bear Blog is copyright (c) 2020 Jan Raasch and is used under the [MIT license](static/licenses/hugo-bearblog.txt). This notice covers the theme and code adapted from it.
+
+The complete upstream notice is included in this repository and published at `/licenses/hugo-bearblog.txt`. When updating the theme, keep this copy in sync with `themes/hugo-bearblog/LICENSE`.
+
 ## Local development
 
 Install Hugo on macOS if needed:
