@@ -26,11 +26,9 @@
   <main>
     {{- block "main" . }}{{- end }}
   </main>
-  {{ if not (.Param "hideMadeWithLine") }}
   <footer>
     {{- partial "footer.html" . -}}
   </footer>
-  {{ end }}
   {{- partial "custom_body.html" . -}}
 </body>
 
