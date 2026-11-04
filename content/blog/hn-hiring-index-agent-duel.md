@@ -6,7 +6,11 @@ draft = false
 description = "A simple, seasonally adjusted index of the Hacker News job market."
 +++
 
-For a second, let's pretend Hacker News is a self-contained economy. How is the job market? We can estimate this using comment counts on the monthly Who is Hiring post for employers and Who Wants to be Hired post for would-be employees.
+For a second, let's pretend Hacker News is a self-contained economy. How is the job market?
+
+Careful, though: raw counts swing with the calendar. Averaged over the full sample, the Who is Hiring thread collects about 26% more comments in May than in January (809 vs 645), so part of every raw spike is just the month you happen to be looking at.
+
+We can estimate this using comment counts on the monthly Who is Hiring post for employers and Who Wants to be Hired post for would-be employees.
 
 I built a simple version here: [HN Hiring Index v0.1](https://micjm.github.io/hn-hiring-index/).
 
@@ -14,4 +18,4 @@ I built a simple version here: [HN Hiring Index v0.1](https://micjm.github.io/hn
 
 Yes! [HN Hiring Pulse](https://hn-pulse-ed21c883b05f.herokuapp.com/) and [Santiago Basulto’s analysis](https://github.com/santiagobasulto/hn-who-is-hiring-analysis/blob/main/Analysis.ipynb).
 
-The only contribution here is seasonal adjustment, which the other posts do not include. (What can I say, my introduction to coding was an econometrics class.)
+My only contribution is seasonal adjustment, which the other posts do not include. (What can I say, my introduction to coding was an econometrics class.)
