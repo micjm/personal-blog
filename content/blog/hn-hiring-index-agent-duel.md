@@ -9,8 +9,6 @@ showFooter = true
 
 For a second, let's pretend Hacker News is a self-contained economy. How is the job market?
 
-Careful, though: raw counts swing with the calendar. Averaged over the full sample, the Who is Hiring thread collects about 26% more comments in May than in January (809 vs 645), so part of every raw spike is just the month you happen to be looking at.
-
 We can estimate this using comment counts on the monthly Who is Hiring post for employers and Who Wants to be Hired post for would-be employees.
 
 I built a simple version here: [HN Hiring Index v0.1](https://micjm.github.io/hn-hiring-index/).
