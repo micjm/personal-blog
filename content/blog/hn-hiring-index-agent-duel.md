@@ -10,7 +10,7 @@ For a second, let's pretend Hacker News is a self-contained economy. How is the 
 
 I built a simple version here: [HN Hiring Index v0.1](https://micjm.github.io/hn-hiring-index/).
 
-## Doesn't this exist?
+**Doesn't this exist?**
 
 Yes! [HN Hiring Pulse](https://hn-pulse-ed21c883b05f.herokuapp.com/) and [Santiago Basulto’s analysis](https://github.com/santiagobasulto/hn-who-is-hiring-analysis/blob/main/Analysis.ipynb).
 
