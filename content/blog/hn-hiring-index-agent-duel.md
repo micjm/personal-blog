@@ -8,7 +8,7 @@ description = "A simple, seasonally adjusted index of the Hacker News job market
 
 For a second, let's pretend Hacker News is a self-contained economy. How is the job market? We can estimate this using comment counts on the monthly Who is Hiring post for employers and Who Wants to be Hired post for would-be employees.
 
-I built a simple version here: [HN Hiring Index](https://micjm.github.io/hn-job-index/).
+I built a simple version here: [HN Hiring Index v0.1](https://micjm.github.io/hn-hiring-index/).
 
 ## Doesn't this exist?
 
