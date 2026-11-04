@@ -1,0 +1,17 @@
++++
+title = "HN Hiring Index v0.1"
+slug = "hn-hiring-index-agent-duel"
+date = "2026-11-04T00:00:00-08:00"
+draft = false
+description = "A simple, seasonally adjusted index of the Hacker News job market."
++++
+
+For a second, let's pretend Hacker News is a self-contained economy. How is the job market? We can estimate this using comment counts on the monthly Who is Hiring post for employers and Who Wants to be Hired post for would-be employees.
+
+I built a simple version here: [HN Hiring Index](https://micjm.github.io/hn-job-index/).
+
+## Doesn't this exist?
+
+Yes! [HN Hiring Pulse](https://hn-pulse-ed21c883b05f.herokuapp.com/) and [Santiago Basulto’s analysis](https://github.com/santiagobasulto/hn-who-is-hiring-analysis/blob/main/Analysis.ipynb).
+
+The only contribution here is seasonal adjustment, which the other posts do not include. (What can I say, my introduction to coding was an econometrics class.)
