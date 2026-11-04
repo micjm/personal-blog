@@ -4,6 +4,7 @@ slug = "hn-hiring-index-agent-duel"
 date = "2026-11-04T00:00:00-08:00"
 draft = false
 description = "A simple, seasonally adjusted index of the Hacker News job market."
+showFooter = true
 +++
 
 For a second, let's pretend Hacker News is a self-contained economy. How is the job market?

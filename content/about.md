@@ -1,5 +1,6 @@
 +++
 title = "About"
+showFooter = true
 +++
 
 ## About me

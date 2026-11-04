@@ -26,9 +26,15 @@
   <main>
     {{- block "main" . }}{{- end }}
   </main>
+  {{ if .Params.showfooter }}
+  {{ if or (eq .Type "blog") (eq .RelPermalink "/about/") }}
+  {{ if .IsPage }}
   <footer>
     {{- partial "footer.html" . -}}
   </footer>
+  {{ end }}
+  {{ end }}
+  {{ end }}
   {{- partial "custom_body.html" . -}}
 </body>
 
