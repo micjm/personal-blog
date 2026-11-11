@@ -8,7 +8,7 @@ description = "Opus 5.5's reasoning output shifted relative to matched opponents
 
 A few days ago, a popular [Hacker News post](https://news.ycombinator.com/item?id=50422069) argued that Opus 5.5 had been nerfed, showing that reasoning tokens declined and language use changed.
 
-In the thread, someone asked if anyone had proof of this, and I realised we did! We are working on a battle system for OpenCode, which gives us data of how Opus 5.5 behaves in comparison to opponents.
+In the thread, someone asked if anyone had proof of this, and I realised we did! We are working on a [battle system for OpenCode](https://github.com/bottomless/agent-duel), which gives us [data](https://agentduel.com/leaderboard) of how Opus 5.5 behaves in comparison to opponents.
 
 ## Confirming the post
 
