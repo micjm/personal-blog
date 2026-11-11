@@ -2,6 +2,7 @@
 title = "Get ready for fewer Opus 5.5 em-dashes"
 date = "2026-11-10T10:30:46-06:00"
 draft = false
+showFooter = true
 description = "Opus 5.5's reasoning output shifted relative to matched opponents, and its visible thinking summaries started using fewer em dashes."
 +++
 
