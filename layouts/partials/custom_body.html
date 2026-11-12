@@ -1,0 +1,13 @@
+{{ with .Site.Params.goatcounterCode }}
+<!-- GoatCounter: page views, referrers, outbound link clicks. -->
+<script>
+  // Tag outbound links so GoatCounter records clicks on them as events.
+  // Runs before the async count.js, which binds handlers on load.
+  document.querySelectorAll('a[href^="http"]').forEach(function (a) {
+    if (a.host === window.location.host || a.dataset.goatcounterClick) return;
+    a.dataset.goatcounterClick = 'ext-' + a.hostname;
+  });
+</script>
+<script data-goatcounter="https://{{ . }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+{{ end }}

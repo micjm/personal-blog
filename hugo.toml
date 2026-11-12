@@ -15,6 +15,8 @@ disableKinds = ["taxonomy", "term", "section"]
   description = "Writing by micjm."
   hideMadeWithLine = true
   dateFormat = "2006-01-02"
+  # GoatCounter analytics: https://micjm.goatcounter.com
+  goatcounterCode = "micjm"
 
 [[menus.main]]
   name = "blog"
