@@ -1,0 +1,78 @@
+{
+  "source": "https://arkanumdata.com/data/congress-trades.json",
+  "paper": "https://arkanumdata.com/research/house-trades",
+  "source_updated": "2026-11-14T00:14:25.290Z",
+  "prices_through": "2026-11-13",
+  "downloaded": "2026-11-15",
+  "raw_rows": 9445,
+  "duplicate_rows_removed": 253,
+  "unclear_dates_removed": 4,
+  "candidate_rows": 9188,
+  "retained_rows": 8941,
+  "members": 99,
+  "purchases": 4142,
+  "sales": 4799,
+  "exclusions": {
+    "no_entry_close": 10,
+    "no_price_history": 170,
+    "later_listing": 67
+  },
+  "source_exclusions": {
+    "no_usable_price_history": 177,
+    "later_listing": 70
+  },
+  "paper_sample": {
+    "candidates": 9188,
+    "retained": 8941,
+    "purchases": 4142,
+    "sales": 4799,
+    "members": 99
+  },
+  "filing_entry": "first SPY trading day strictly after filing date",
+  "trade_entry": "first SPY trading day on or after trade date",
+  "horizons": [
+    21,
+    63,
+    126
+  ],
+  "bootstrap": {
+    "unit": "disclosure month",
+    "replicates": 400,
+    "seed": 20261115,
+    "interval": "5th and 95th percentiles"
+  },
+  "top_ten_members": [
+    "April McClain Delaney",
+    "Bruce Westerman",
+    "Gilbert Ray Cisneros, Jr.",
+    "Jefferson Shreve",
+    "Josh Gottheimer",
+    "Julie Johnson",
+    "Lisa C. McClain",
+    "Marjorie Taylor Greene",
+    "Robert P. Bresnahan, Jr.",
+    "Val T. Hoyle"
+  ],
+  "max_published_median_difference_pp": 0.14365290519970914,
+  "published_group_counts_matched": 26,
+  "published_effective_subgroup_counts_matched": 22,
+  "source_r_check": {
+    "n_compared": 8939,
+    "mae_pp": {
+      "trade_stock_pp": 0.03802342179888615,
+      "trade_spy_pp": 0.002639023731307749,
+      "disc_stock_pp": 0.03740345112931252,
+      "disc_spy_pp": 0.002670533850426337
+    },
+    "frac_abs_lt_0_05_pp": {
+      "trade_stock_pp": 0.9446246783756572,
+      "trade_spy_pp": 1.0,
+      "disc_stock_pp": 0.9449602863855018,
+      "disc_spy_pp": 1.0
+    }
+  },
+  "cache_used": "/Users/michaelmayer/personal-blog/analysis/house-trades-mean/.cache",
+  "cache_mutated": false,
+  "raw_source_sha256": "a9e45c317406a006797f581f3bb380a9f704c5c7d9cb8cd5739bf930a1d159da",
+  "price_cache_sha256": "908a55a8285b49ef47256c6929941bca9aadea2f22b7d49085b0ba45fef45378"
+}
