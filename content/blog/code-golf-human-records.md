@@ -2,7 +2,7 @@
 title = "Which models beat humans at the code golf benchmark"
 slug = "code-golf-human-records"
 date = "2026-11-25T00:00:00-06:00"
-draft = false
+draft = true
 showFooter = true
 summary = "Seven models beat the 2015 human records when every problem–language pair with a human solution gets equal weight."
 +++
