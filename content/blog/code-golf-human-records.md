@@ -7,7 +7,7 @@ showFooter = true
 summary = "Seven models beat the 2015 human records when all 32 problems get equal weight and every language with a human solution counts."
 +++
 
-On November 22, a [post hit Hacker News](https://news.ycombinator.com/item?id=50601280) that claimed GPT-6.2 Astra was the first model to beat humans on a benchmark called code golf. A quick glance at the table showed that the weights were broken. Haskell got zero weight in the human comparison even though humans had solved all 32 problems in it. Gemini 4 Neon, at least, looked like it should also be beating humans.
+A [post on Hacker News today](https://news.ycombinator.com/item?id=50601280) claims that GPT-6.2 Astra is the first model to beat humans on a benchmark called code golf. A quick glance at the table showed that the weights were broken. Haskell got zero weight in the human comparison even though humans had solved all 32 problems in it. Gemini 4 Neon, at least, looked like it should also be beating humans.
 
 I recalculated the table below, giving each problem equal weight and only including problem and language combinations that humans had solved.
 
