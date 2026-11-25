@@ -4,18 +4,18 @@ slug = "code-golf-human-records"
 date = "2026-11-25T00:00:00-06:00"
 draft = false
 showFooter = true
-summary = "Seven models beat the 2015 human records when all 32 problems get equal weight and every language with a human solution counts."
+summary = "Seven models beat the 2015 human records when every problem–language pair with a human solution gets equal weight."
 +++
 
 A [post on Hacker News today](https://news.ycombinator.com/item?id=50601280) claims that GPT-6.2 Astra is the first model to beat humans on a benchmark called code golf. A quick glance at the table showed that the weights were broken. Haskell got zero weight in the human comparison even though humans had solved all 32 problems in it. Gemini 4 Neon, at least, looked like it should also be beating humans.
 
-I recalculated the table below, giving each problem equal weight and only including problem and language combinations that humans had solved.
+I recalculated the table below, giving equal weight to every problem–language pair that humans had solved.
 
 {{< code-golf-table >}}
 | Rank | Competitor | Score |
 | ---: | :--- | ---: |
 | 1 | GPT-6.2 Astra (max) | 92.69% |
-| 2 | **Gemini 4 Neon (xhigh)** | 87.37% |
+| 2 | Gemini 4 Neon (xhigh) | 87.37% |
 | 3 | Claude Fable 5.2 (xhigh) | 87.32% |
 | 4 | Gemini 4 Carbon (high) | 86.36% |
 | 5 | GPT-6.2 Sol (max) | 86.28% |
@@ -41,8 +41,6 @@ I recalculated the table below, giving each problem equal weight and only includ
 
 ## Scoring
 
-Each of the 32 problems counts for 1/32 of the final score. For each problem, I averaged the scores in the languages where humans had a solution. For all 32, those were JavaScript, Python, C++ and Haskell.
-
-I kept the benchmark’s scoring formula. A solution earns 100% × (best known byte count ÷ submitted byte count)². Matching the shortest known solution earns 100%, using twice as many bytes earns 25%, and an unsolved entry earns zero. The human row uses the shortest recorded human solution for each problem and language.
+Humans solved all 32 problems in JavaScript, Python, C++ and Haskell. Each of those 128 problem–language pairs counts for 1/128 of the final score.
 
 [Source byte counts (November 25 snapshot)](https://github.com/bjin/go-codegolf-benchmark/blob/e962571532c03f4ef4d64d9f371e0770216f7975/data.json) · [Original leaderboard](https://bjin.github.io/go-codegolf-benchmark/#leaderboard) · [Author’s rationale for the three-language comparison](https://bjin.github.io/go-codegolf-benchmark/#about/overall-and-js-py-c)
