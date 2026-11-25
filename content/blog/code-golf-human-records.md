@@ -41,6 +41,6 @@ I recalculated the table below, giving equal weight to every problem–language 
 
 ## Scoring
 
-Humans solved all 32 problems in JavaScript, Python, C++ and Haskell. Each of those 128 problem–language pairs counts for 1/128 of the final score.
+All of the problems have equal weight (there are 32, answered in four languages).
 
 [Source byte counts (November 25 snapshot)](https://github.com/bjin/go-codegolf-benchmark/blob/e962571532c03f4ef4d64d9f371e0770216f7975/data.json) · [Original leaderboard](https://bjin.github.io/go-codegolf-benchmark/#leaderboard) · [Author’s rationale for the three-language comparison](https://bjin.github.io/go-codegolf-benchmark/#about/overall-and-js-py-c)
