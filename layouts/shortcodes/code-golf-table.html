@@ -1,0 +1,41 @@
+<div id="code-golf-results" role="region" aria-label="Code golf leaderboard" tabindex="0">
+  {{ .Page.RenderString .Inner }}
+</div>
+<style>
+  #code-golf-results { overflow-x: auto; }
+  #code-golf-results table { border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  #code-golf-results :is(th, td) { padding: .4em .5em; text-align: right; border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent); }
+  #code-golf-results :is(th, td):nth-child(2) { text-align: left; }
+  #code-golf-results button { background: none; border: 0; padding: 0; color: var(--link-color); font: inherit; text-align: inherit; }
+  #code-golf-results th[aria-sort="ascending"] button::after { content: " ↑"; }
+  #code-golf-results th[aria-sort="descending"] button::after { content: " ↓"; }
+</style>
+<script>
+(() => {
+  const table = document.querySelector("#code-golf-results table");
+  const body = table.tBodies[0];
+  const headers = Array.from(table.tHead.rows[0].cells);
+  headers[0].setAttribute("aria-sort", "ascending");
+  headers.forEach((header, column) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = header.textContent.trim();
+    header.replaceChildren(button);
+    button.addEventListener("click", () => {
+      const previous = header.getAttribute("aria-sort");
+      const scoreColumn = column === 2 || column === 4;
+      const ascending = previous ? previous === "descending" : !scoreColumn;
+      const rows = Array.from(body.rows);
+      rows.sort((a, b) => {
+        const left = a.cells[column].textContent;
+        const right = b.cells[column].textContent;
+        const order = column === 1 ? left.localeCompare(right) : parseFloat(left) - parseFloat(right);
+        return ascending ? order : -order;
+      });
+      body.append(...rows);
+      headers.forEach(cell => cell.removeAttribute("aria-sort"));
+      header.setAttribute("aria-sort", ascending ? "ascending" : "descending");
+    });
+  });
+})();
+</script>
