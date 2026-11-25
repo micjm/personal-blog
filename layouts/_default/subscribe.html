@@ -12,5 +12,31 @@
   </div>
 </form>
 
+{{ if .Site.Params.goatcounterCode }}
+<script>
+  document.querySelector('.subscribe-form').addEventListener('submit', function () {
+    const counter = window.goatcounter;
+    if (!counter?.url || counter.filter()) return;
+
+    const postPaths = [{{ range where site.RegularPages "Section" "blog" }}{{ .RelPermalink }},{{ end }}];
+    const previous = new URL(document.referrer || '/', location.origin);
+    const source = previous.origin === location.origin && postPaths.includes(previous.pathname)
+      ? previous.pathname : 'unattributed';
+
+    const hit = new URL(counter.url({
+      event: true,
+      no_session: true, // Count each valid submission attempt.
+      path: 'signup-submitted',
+      title: 'Signup submitted',
+      referrer: source
+    }));
+    // Keep the signup page's query string out of both the event and the HTTP referrer.
+    hit.searchParams.delete('q');
+    fetch(hit, { method: 'POST', keepalive: true, credentials: 'omit', referrerPolicy: 'origin' })
+      .catch(() => {}); // Analytics failures must not interrupt signup.
+  });
+</script>
+{{ end }}
+
 <p>Prefer a feed reader? <a href="{{ "index.xml" | relURL }}">Subscribe via RSS</a>.</p>
 {{ end }}
