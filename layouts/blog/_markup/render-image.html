@@ -1,0 +1,11 @@
+{{- $url := urls.Parse .Destination -}}
+{{- $mobile := false -}}
+{{- if and (not $url.IsAbs) (not $url.Host) (not (hasPrefix $url.Path "/")) -}}
+  {{- $ext := path.Ext $url.Path -}}
+  {{- $mobile = .Page.Resources.Get (printf "%s-mobile%s" (strings.TrimSuffix $ext $url.Path) $ext) -}}
+{{- end -}}
+{{- with $mobile -}}
+<picture><source media="(max-width: 640px)" srcset="{{ .RelPermalink }}">
+{{- end -}}
+<img src="{{ .Destination }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- if $mobile }}</picture>{{ end -}}
