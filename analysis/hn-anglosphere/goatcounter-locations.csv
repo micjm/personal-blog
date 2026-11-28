@@ -1,0 +1,159 @@
+country,iso3,group,visits
+United States,USA,anglosphere,12837
+United Kingdom,GBR,anglosphere,2599
+Germany,DEU,europe,2262
+Canada,CAN,anglosphere,1354
+India,IND,rest,1190
+France,FRA,europe,991
+Netherlands,NLD,europe,963
+Australia,AUS,anglosphere,915
+Switzerland,CHE,europe,754
+Sweden,SWE,europe,741
+Poland,POL,europe,615
+Spain,ESP,europe,601
+Italy,ITA,europe,554
+Singapore,SGP,rest,514
+South Korea,KOR,rest,483
+Japan,JPN,rest,442
+Norway,NOR,europe,345
+Brazil,BRA,rest,340
+Denmark,DNK,europe,315
+Finland,FIN,europe,311
+Austria,AUT,europe,300
+Belgium,BEL,europe,220
+New Zealand,NZL,anglosphere,204
+Turkey,TUR,rest,196
+Ireland,IRL,anglosphere,187
+Mexico,MEX,rest,187
+Portugal,PRT,europe,186
+Czechia,CZE,europe,180
+Hong Kong,HKG,rest,173
+Israel,ISR,rest,171
+Vietnam,VNM,rest,163
+Romania,ROU,europe,149
+Russia,RUS,europe,148
+South Africa,ZAF,rest,134
+Taiwan,TWN,rest,127
+Indonesia,IDN,rest,110
+Argentina,ARG,rest,99
+Greece,GRC,europe,92
+Lithuania,LTU,europe,92
+Croatia,HRV,europe,91
+Bulgaria,BGR,europe,83
+Hungary,HUN,europe,81
+Ukraine,UKR,europe,81
+Thailand,THA,rest,79
+United Arab Emirates,ARE,rest,76
+Malaysia,MYS,rest,67
+Slovenia,SVN,europe,65
+Estonia,EST,europe,61
+Serbia,SRB,europe,61
+Latvia,LVA,europe,48
+Slovakia,SVK,europe,46
+Philippines,PHL,rest,44
+Cyprus,CYP,europe,43
+Chile,CHL,rest,41
+Iceland,ISL,europe,41
+Colombia,COL,rest,38
+China,CHN,rest,32
+Pakistan,PAK,rest,32
+Belarus,BLR,europe,31
+Georgia,GEO,rest,31
+Kazakhstan,KAZ,rest,30
+Armenia,ARM,rest,28
+Morocco,MAR,rest,26
+Saudi Arabia,SAU,rest,24
+Bangladesh,BGD,rest,23
+Kenya,KEN,rest,23
+Luxembourg,LUX,europe,23
+Egypt,EGY,rest,20
+Nepal,NPL,rest,20
+Sri Lanka,LKA,rest,19
+Uruguay,URY,rest,19
+Bosnia and Herzegovina,BIH,europe,16
+Nigeria,NGA,rest,16
+Puerto Rico,PRI,rest,14
+Cambodia,KHM,rest,13
+Dominican Republic,DOM,rest,12
+Algeria,DZA,rest,12
+Moldova,MDA,europe,12
+Peru,PER,rest,12
+Iran,IRN,rest,11
+Ethiopia,ETH,rest,10
+North Macedonia,MKD,europe,10
+Malta,MLT,europe,10
+Albania,ALB,europe,8
+Costa Rica,CRI,rest,8
+Ecuador,ECU,rest,8
+Panama,PAN,rest,8
+Tunisia,TUN,rest,8
+Uzbekistan,UZB,rest,8
+Maldives,MDV,rest,7
+Qatar,QAT,rest,7
+Azerbaijan,AZE,rest,6
+Kyrgyzstan,KGZ,rest,6
+Venezuela,VEN,rest,6
+Zambia,ZMB,rest,6
+Iraq,IRQ,rest,5
+Jamaica,JAM,rest,5
+Tanzania,TZA,rest,5
+Bolivia,BOL,rest,4
+Ghana,GHA,rest,4
+Monaco,MCO,europe,4
+French Polynesia,PYF,rest,4
+Seychelles,SYC,rest,4
+Andorra,AND,europe,3
+Cabo Verde,CPV,rest,3
+Guadeloupe,GLP,rest,3
+Guatemala,GTM,rest,3
+Jordan,JOR,rest,3
+Mongolia,MNG,rest,3
+Macao,MAC,rest,3
+Paraguay,PRY,rest,3
+Réunion,REU,rest,3
+Uganda,UGA,rest,3
+Angola,AGO,rest,2
+Aruba,ABW,rest,2
+Bahrain,BHR,rest,2
+Benin,BEN,rest,2
+Bermuda,BMU,rest,2
+Bahamas,BHS,rest,2
+Faroe Islands,FRO,europe,2
+Guernsey,GGY,europe,2
+Gibraltar,GIB,europe,2
+Greenland,GRL,rest,2
+Guinea,GIN,rest,2
+Jersey,JEY,europe,2
+Montenegro,MNE,europe,2
+Oman,OMN,rest,2
+Turks and Caicos Islands,TCA,rest,2
+Trinidad and Tobago,TTO,rest,2
+Afghanistan,AFG,rest,1
+Antigua and Barbuda,ATG,rest,1
+Åland,ALA,europe,1
+Barbados,BRB,rest,1
+Botswana,BWA,rest,1
+Belize,BLZ,rest,1
+DR Congo,COD,rest,1
+Curaçao,CUW,rest,1
+Grenada,GRD,rest,1
+Honduras,HND,rest,1
+Isle of Man,IMN,europe,1
+St Kitts and Nevis,KNA,rest,1
+Kuwait,KWT,rest,1
+Cayman Islands,CYM,rest,1
+Laos,LAO,rest,1
+Lebanon,LBN,rest,1
+Liechtenstein,LIE,europe,1
+Liberia,LBR,rest,1
+Madagascar,MDG,rest,1
+Mauritius,MUS,rest,1
+Mozambique,MOZ,rest,1
+Palestine,PSE,rest,1
+Palau,PLW,rest,1
+Rwanda,RWA,rest,1
+South Sudan,SSD,rest,1
+Tajikistan,TJK,rest,1
+Turkmenistan,TKM,rest,1
+Kosovo,XKX,europe,1
+(unknown),,rest,3
